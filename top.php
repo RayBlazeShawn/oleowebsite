@@ -1,6 +1,4 @@
 <?php
-$insert = false;
-if(isset($_POST['ReliefValve'])){
     // Set connection variables
     $server = "localhost";
     $username = "root";
@@ -9,32 +7,24 @@ if(isset($_POST['ReliefValve'])){
     // Create a database connection
     $con = mysqli_connect($server, $username, $password);
 
-    // Check for connection success
-    if(!$con){
-        die("connection to this database failed due to" . mysqli_connect_error());
+    //database name
+    $databaseName = "oleo";
+    $productTable = "products";
+
+function mysqli_result($res,$row=0,$col=0){
+    $numrows = mysqli_num_rows($res);
+    if ($numrows && $row <= ($numrows-1) && $row >=0){
+        mysqli_data_seek($res,$row);
+        $resrow = (is_numeric($col)) ? mysqli_fetch_row($res) : mysqli_fetch_assoc($res);
+        if (isset($resrow[$col])){
+            return $resrow[$col];
+        }
     }
-
-    // Collect post variables
-    $ReliefValve = $_POST['ReliefValve'];
-    $PilotOperatedCheckValve = $_POST['PilotOperatedCheck Valve'];
-    $ReducingValve = $_POST['ReducingValve'];
-    $ThrottleValve = $_POST['ThrottleValve'];
-    $DirectionValve = $_POST['DirectionValve'];
-    $sql = "INSERT INTO `products` (`ReliefValve`,`PilotOperatedCheck Valve`,`ReducingValve`,`ThrottleValve`,`DirectionValve`) VALUES ('$ReliefValve', '$PilotOperatedCheckValve', '$ReducingValve', '$ThrottleValve', '$DirectionValve')";
-     echo $sql;
-
-    // Execute the query
-    if($con->query($sql) == true){
-        // echo "Successfully inserted";
-
-        // Flag for successful insertion
-        $insert = true;
-    }
-    else{
-        echo "ERROR: $sql <br> $con->error";
-    }
-
-    // Close the database connection
-    $con->close();
+    return false;
 }
+
+// to display errors
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 ?>

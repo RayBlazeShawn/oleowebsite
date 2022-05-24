@@ -15,15 +15,15 @@
                             <ul>
                                
                                 <li><a href="index.php">HOME</a> </li>
-                                <li><a href="services.html">ABOUT US </a></li>
+                                <li><a href="#">ABOUT US </a></li>
                                 
                                 <li><a href="#">PRODUCTS <i class="fas fa-angle-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="reliefValve.php">Relief Valve</a></li>
-                                        <li><a href="PilotOperatedCheckValve.php">Pilot Operated Check Valve</a></li>
-                                        <li><a href="reducingValve.php">Reducing Valve</a></li>
-                                            <li><a href="throttleValve.php">Throttle Valve</a></li>
-                                                <li><a href="directionValve.php">Direction Valve</a><div class="navbar">
+                                        <li><a href="list.php?type=Relief-Valve">Relief Valve</a></li>
+                                        <li><a href="list.php?type=Pilot-Operated-Check-Valve">Pilot Operated Check Valve</a></li>
+                                        <li><a href="list.php?type=Reducing-Valve">Reducing Valve</a></li>
+                                        <li><a href="list.php?type=Throttle-Valve">Throttle Valve</a></li>
+                                        <li><a href="list.php?type=Direction-Valve">Direction Valve</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="contact.php">CONTACT </a></li>
@@ -45,21 +45,20 @@
                             </button>
                             <nav class="sidebar-nav">
                                 <ul class="metismenu" id="mobile-menu">
-                                    
-                                    <li><a href="about.php">about</a></li>
-                                    <li><a class="has-arrow" href="#">PRODUCTS</a>
+
+                                    <li><a href="index.php">HOME</a> </li>
+                                    <li><a href="#">ABOUT US </a></li>
+
+                                    <li><a href="#">PRODUCTS <i class="fas fa-angle-down"></i></a>
                                         <ul class="sub-menu">
-                                        <li><a href="reliefValve.php">Relief Valve</a></li>
-                                        <li><a href="PilotOperatedCheckValve.php">Pilot Operated Check Valve</a></li>
-                                        <li><a href="reducingValve.php">Reducing Valve</a></li>
-                                            <li><a href="throttleValve.php">Throttle Valve</a></li>
-                                                <li><a href="directionValve.php">Direction Valve</a><div class="navbar">
+                                            <li><a href="list.php?type=Relief-Valve">Relief Valve</a></li>
+                                            <li><a href="list.php?type=Pilot-Operated-Check-Valve">Pilot Operated Check Valve</a></li>
+                                            <li><a href="list.php?type=Reducing-Valve">Reducing Valve</a></li>
+                                            <li><a href="list.php?type=Throttle-Valve">Throttle Valve</a></li>
+                                            <li><a href="list.php?type=Direction-Valve">Direction Valve</a></li>
                                         </ul>
                                     </li>
-                                   
-                                   
-                                    
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">CONTACT </a></li>
                                     <li><a href="#"> <img src="logo1.png" width="35" alt="Search">  <input type="text" placeholder="Search..."></a>
                                 </ul>
                             </nav>

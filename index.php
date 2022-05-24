@@ -6,130 +6,15 @@ include "top.php";
 
 <html lang="en">
 
-<head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="modinatheme">
-    <!-- ======== Page title ============ -->
-    <title>
-Oleodinamica Idraulica
-</title>
-    <!-- ========== Favicon Icon ========== -->
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-    <!-- ===========  All Stylesheet ================= -->
-    <!--  Icon css plugins -->
-    <link rel="stylesheet" href="assets/css/icons.css">
-    <!--  animate css plugins -->
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <!--  slick css plugins -->
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <!--  magnific-popup css plugins -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- metis menu css file -->
-    <link rel="stylesheet" href="assets/css/metismenu.css">
-    <!-- select2 css file -->
-    <link rel="stylesheet" href="assets/css/nice-select2.css">
-    <!--  Bootstrap css plugins -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--  main style css file -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- template main style css file -->
-    <link rel="stylesheet" href="style.css">
-    
-</head>
+<?php
+include "head.php";
+?>
 
 <body class="body-wrapper">    
     <!-- preloader -->
-    <div id="preloader" class="preloader">
-        <div class="animation-preloader">
-            <div class="spinner">                
-            </div>
-                <div class="txt-loading">
-                    <span data-text-preloader="O" class="letters-loading">
-                        O
-                    </span>
-                    <span data-text-preloader="L" class="letters-loading">
-                        L
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="O" class="letters-loading">
-                        O
-                    </span>
-                    <span data-text-preloader="V" class="letters-loading">
-                        D
-                    </span>
-                    <span data-text-preloader="A" class="letters-loading">
-                        I
-                    </span>
-                    <span data-text-preloader="L" class="letters-loading">
-                        N
-                    </span>
-                    <span data-text-preloader="V" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        M
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        I
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        C
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        I
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        D
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        R
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        A
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        U
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        L
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        I
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        C
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        A
-                    </span>
-                </div>
-            <p class="text-center">Loading</p>
-        </div>
-        <div class="loader">
-            <div class="row">
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-left">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-                <div class="col-3 loader-section section-right">
-                    <div class="bg"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    include "preloader.php";
+    ?>
     <div class="top-bar-wrapper d-none d-sm-block">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="top-left">
@@ -163,7 +48,7 @@ Oleodinamica Idraulica-dots">
                                          Idraulica
                                         </span></h1>
                                 <p class="pe-lg-5 mb-4 animated" data-animation-in="fadeInRight" data-delay-in="0.5">We are committed to providing our customers with exceptional service while offering our employees </p>
-                                <a href="contact.html" data-animation-in="fadeInRight" data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4 animated">Track your order</a>
+
                             </div>
                         </div>
                     </div>
