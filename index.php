@@ -37,7 +37,7 @@ include "head.php";
         <div  class="hero-slider-active 
 Oleodinamica Idraulica-dots">
             <div class="single-slide">
-                <div class="slide-bg bg-cover wow zoomIn" style="">
+                <div class="slide-bg bg-cover wow zoomIn" style="background-image: url('pic1.jpg');">
                 </div>
                 <div class="container">
                     <div class="row">
@@ -56,7 +56,7 @@ Oleodinamica Idraulica-dots">
               
             </div>
             <div class="single-slide">
-                <div class="slide-bg bg-cover" style="background-image: url('assets/img/home1/slide2.jpg');">
+                <div class="slide-bg bg-cover" style="background-image: url('pic2.png');">
                 </div>
                 <div class="container">
                     <div class="row">
@@ -71,8 +71,24 @@ Oleodinamica Idraulica-dots">
                 </div>
                 
             </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <div class="single-slide">
+                <div class="slide-bg bg-cover" style="background-image: url('pic3.png');">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-xxl-6 col-lg-8 col-sm-10">
+                            <div class="hero-contents pe-lg-3 text-white">
+                                <h1 style="color: black"; class="fs-lg animated" data-animation-in="fadeInRight" data-delay-in="0.2">Oleodinamica  <span>Idraulica</span></h1>
+                                <p class="pe-lg-5 mb-4" data-animation-in="fadeInRight" data-delay-in="0.5">We are committed to providing our customers with exceptional service while offering our employees </p>
+                                <a href="contact.html" data-animation-in="fadeInRight" data-delay-in="0.8" class="theme-btn border-style me-sm-4 mt-4">Track your order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
             <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44px" height="44px" id="circle" fill="none" stroke="currentColor">
                 <circle r="20" cy="22" cx="22" id="
 Oleodinamica Idraulica
@@ -205,85 +221,7 @@ Oleodinamica Idraulica
         </div>
     </section>
 
-    <section class="testimonial-wrapper section-bg section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-12 mb-40">
-                    <div class="block-contents text-center">
-                        <div class="section-title">
-                            <h5>review</h5>
-                            <span>Testimonials</span>
-                            <h2 style="color: black";>Clients </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-6 col-xl-4 col-12">
-                    <div class="single-testimonial-card text-center">
-                        <div class="client-img bg-cover bg-center" style="background-image: url('assets/img/blog/author2.jpg')"></div>
-                        <div class="client-info">
-                            <h4 style="color: black";>Thomas Smith</h4>
-                            <span>CEO & Engineer</span>
-                        </div>
-                        <div class="feedback">
-                            <p>Great experience and impressive product. It was a very professional and technically competent job from the whole team.</p>
-
-                            <div class="star">
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4 col-12">
-                    <div class="single-testimonial-card text-center">
-                        <div class="client-img bg-cover bg-center" style="background-image: url('assets/img/blog/author3.jpg')"></div>
-                        <div class="client-info">
-                            <h4 style="color: black";>Ernest Smith</h4>
-                            <span>Business Man</span>
-                        </div>
-                        <div class="feedback">
-                            <p>Great experience and impressive product. It was a very professional and technically competent job from the whole team.</p>
-
-                            <div class="star">
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4 col-12">
-                    <div class="single-testimonial-card text-center">
-                        <div class="client-img bg-cover bg-center" style="background-image: url('assets/img/blog/author_img.jpg')"></div>
-                        <div class="client-info">
-                            <h4 style="color: black";>Salman Ahmed</h4>
-                            <span>Project Manager</span>
-                        </div>
-                        <div class="feedback">
-                            <p>Great experience and impressive product. It was a very professional and technically competent job from the whole team.</p>
-
-                            <div class="star">
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-   
 
     <?php
     include "footer.php";

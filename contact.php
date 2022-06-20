@@ -201,8 +201,8 @@ Oleodinamica Idraulica
                         </div>
                         <div class="bottom-part">                            
                             <div class="info">
-                                <p>098-098-098-09</p>
-                                <p>+(098) 098-098-765</p>
+                                <p>000-000-000-00</p>
+                                <p>+(000) 000-000-000</p>
                             </div>
                             <div class="icon">
                                 <i class="fal fa-arrow-right"></i>
@@ -218,13 +218,16 @@ Oleodinamica Idraulica
                             </div>
                             <div class="title">
                                 <h4 style="color: black";>Office Address</h4>
-                                <span>Sent mail asap anytime</span>
+                                <span>Official dealer in Asia-Pacific</span>
                             </div>
                         </div>
                         <div class="bottom-part">                            
                             <div class="info">
-                                <p>B2, Miranda City Tower</p>
-                                <p>New York, US</p>
+                                <p>Yuken India Limited P. B. No. 5,</p>
+                                <p>Koppathimmanahalli Village, H. Hosakote Gram Panchayat,</p>
+                                <p> Lakkur Hobli, Malur Taluk,<p/>
+                              <p>  Kolar District, Karnataka-563160</p>
+
                             </div>
                             <div class="icon">
                                 <i class="fal fa-arrow-right"></i>

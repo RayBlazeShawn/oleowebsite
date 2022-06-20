@@ -39,19 +39,25 @@ include "head.php";
                     <div class="block-contents mb-10">
                         <div class="section-title">
                             <h5 class="textright"></h5>
+
+                            <?php
+                            $result  = mysqli_query($con, "select * from ". $databaseName.".$productTable where productType='$type'");
+                            $description=mysqli_result($result,0,"productDescription");
+                            ?>
                         
-                            <h2 style="color: black";  style="text-align:right"><?=$type?></span></h2>
+                            <h2 style="color: black";  style="text-align:right"><?=$type?></h2>
+                            <h4 style="color: black";  style="text-align:center"><?=$description?></h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <?php
-                $result  = mysqli_query($con, "select * from ". $databaseName.".$productTable where productType='$type'");
+
                 $num = mysqli_num_rows($result);
                 for($i=0;$i<$num;$i++) {
                     ?>
-                    <div class="col-xl-4 col-md-12 col-24">
+                    <div class="col-xl-6 col-md-12 col-24">
                         <div class="single-service-card">
                             <div class="service-banner-img bg-cover"
                                  style="background-image: url('<?=mysqli_result($result,$i,"productImageURL")?>')">     </div>

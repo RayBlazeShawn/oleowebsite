@@ -161,45 +161,16 @@ Oleodinamica Idraulica
                     </div>
                 </div>
             </div>
-           
 
-            <div class="co">
-                <div class="col-xl-6 col-md-5 col-25">
-                    <div class="team-member-card bg-cover" style="background-image: url('assets/img/team/1.jpg')">
-                       
-                    </div>
-                </div>
-                
-            </div>
-        </div>  
 
-        
-        
-           
+        </div>
+    <p>They Control flow rate of the hydraulic circuit and eventually control speed of the actuator precisely. Valves with an integral check valve allow a controlled flow and reverse free flow</p>
 
-            <div class="row">
-                <div class="col-xl-4 col-md-12 col-24">
-                    <div class="single-freight-service wow fadeInUp">
-                        <h3><a href="services-details.html">image</a></h3>
-                        
-                       
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-12 col-24">
-                    <div class="single-freight-service active wow fadeInUp">
-                        <h3><a href="services-details.html">image</a></h3>
-                        
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-12 col-24">
-                    <div class="single-freight-service wow fadeInUp" >
-                        <h3><a href="services-details.html">image</a></h3>
-                       
-                    </div>
-                </div>
-            </div>
-        
-    
+
+
+
+
+
 
     </section>
   

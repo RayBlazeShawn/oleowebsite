@@ -6,7 +6,7 @@
                     <div class="col-sm-6 col-xl-3">
                         <div class="about-Oleodinamica Idraulica pe-md-5 pe-xl-0">
                             <a href="index.html">
-                                <img src="logo4.png" width="100" alt="Oleodinamica Idraulica">
+                                <img src="loggo.png" width="200" alt="Oleodinamica Idraulica">
                             </a>
                             <p>
 Oleodinamica Idraulica

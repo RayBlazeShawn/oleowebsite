@@ -137,7 +137,7 @@ Oleodinamica Idraulica
             </div>
             <div class="top-right">
                 
-                <a href="mailto:info@example.com"><i class="fal fa-envelope"></i>info@example.com</a>
+                <a style="color: white;" href="mailto:info@example.com"><i class="fal fa-envelope"></i>info@example.com</a>
             </div>
            
         </div>
@@ -148,8 +148,9 @@ Oleodinamica Idraulica
     ?>
 
 <div class="container">
-<img src="..." class="img-thumbnail" alt="...">
+<img src=".." class="img-thumbnail" alt="...">
 </div>
+    <p></p>
     
 <?php
     include "footer.php";

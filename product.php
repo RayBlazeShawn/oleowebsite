@@ -8,6 +8,9 @@ $productName = mysqli_result($productDetails,0,"productName");
 $productType = mysqli_result($productDetails,0,"productType");
 $modelCode = mysqli_result($productDetails,0,"modelCode");
 $productImageURL = mysqli_result($productDetails,0,"productImageURL");
+$productDescription = mysqli_result($productDetails,0,"productDescription");
+$MaxFlowLpm = mysqli_result($productDetails,0,"MaxFlowLpm");
+$MaxPressureBar = mysqli_result($productDetails,0,"MaxPressureBar");
 
 ?>
 <!DOCTYPE html>
@@ -70,18 +73,18 @@ include "head.php";
                         <div class="member-info">
                             <h2><?=$productName?></h2>
                             <span><?=$productType?></span>
-                            <p>Space for description</p>
+                            <p><?=$productDescription?></p>
 
 
                         </div>
                         <div class="member-contact-info">
                             <div class="single-contact">
-                                <h6>Technical Specification 1</h6>
-                                <p>Value</p>
+                                <h6>Max. Flow (lpm) </h6>
+                                <p><?=$MaxFlowLpm?></p>
                             </div>
                             <div class="single-contact">
-                                <h6>Technical Specification 1</h6>
-                                <p>Value 2</p>
+                                <h6>Max. Pressure (bar)</h6>
+                                <p><?=$MaxPressureBar?></p>
                             </div>
                             <div class="single-contact">
                                 <h6>Technical Specification 1</h6>

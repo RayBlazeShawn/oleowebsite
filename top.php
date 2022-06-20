@@ -11,6 +11,7 @@
     $databaseName = "oleo";
     $productTable = "products";
 
+
 function mysqli_result($res,$row=0,$col=0){
     $numrows = mysqli_num_rows($res);
     if ($numrows && $row <= ($numrows-1) && $row >=0){
@@ -22,6 +23,7 @@ function mysqli_result($res,$row=0,$col=0){
     }
     return false;
 }
+
 
 // to display errors
 ini_set('display_errors', 1);

@@ -1,6 +1,6 @@
 /*
-SQLyog Ultimate v13.1.1 (64 bit)
-MySQL - 10.4.22-MariaDB : Database - oleo
+SQLyog Professional v13.1.1 (64 bit)
+MySQL - 10.4.24-MariaDB : Database - oleo
 *********************************************************************
 */
 
@@ -26,16 +26,18 @@ CREATE TABLE `products` (
   `productType` varchar(30) DEFAULT NULL,
   `productImageURL` text DEFAULT NULL,
   `modelCode` varchar(20) DEFAULT NULL,
+  `productDescription` text DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `UNIQUE` (`modelCode`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4;
 
 /*Data for the table `products` */
 
-insert  into `products`(`id`,`productName`,`productType`,`productImageURL`,`modelCode`) values 
-(1,'OMBA-01-C-10','Relief Valve',NULL,'OMBA-01-C-10'),
-(2,'OMBA-01-H-10\r\n','Relief Valve',NULL,'OMBA-01-H-10'),
-(3,'DSG-03-2D2-A240-N1-50','Direction Valve','images/DSG-03-2D2-A240-N1-50.png','DSG-03-2D2-A240-N1-5');
+insert  into `products`(`id`,`productName`,`productType`,`productImageURL`,`modelCode`,`productDescription`) values 
+(1,'OMBA-01-C-10','Relief Valve',NULL,'OMBA-01-C-10','This valve is used in hydraulic system to prevent damage due to over pressure and to adjust the maximum system pressure\r\n\r\nCan have max pressure , max flow'),
+(2,'OMBA-01-H-10\r\n','Relief Valve',NULL,'OMBA-01-H-10','This valve is used in hydraulic system to prevent damage due to over pressure and to adjust the maximum system pressure\r\n\r\nCan have max pressure , max flow'),
+(3,'DSG-03-2D2-A240-N1-50','Direction Valve','images/DSG-03-2D2-A240-N1-50.png','DSG-03-2D2-A240-N1-5','DCVs allow fluid flow (hydraulic oil, water or air) into different paths from one or more sources\r\n'),
+(7,'abvnvc','Relief Valve',NULL,'abc','bcdd');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

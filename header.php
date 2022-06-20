@@ -4,7 +4,7 @@
                 <div class="col-lg-3 col-sm-5 col-md-4 col-6 pr-lg-5">
                     <div class="logo">
                         <a href="index.php">
-                        <img src="logo3.png" width="220"   alt="Oleodinamica Idraulica"  >      
+                        <img src="image%204.jpg" width="220"   alt="Oleodinamica Idraulica"  >
                          </p> 
                         </a>
                     </div>
